@@ -345,13 +345,15 @@ neighbors = endpoint.find_neighbors(
 ## Project Structure
 
 ```
-finrag/
+
 ├── main.py                          # Entry point — run the benchmark
 ├── requirements.txt                 # Python dependencies
 ├── pytest.ini                       # Test configuration + coverage
 ├── pyproject.toml                   # Package metadata
 ├── retrieval_benchmark.md           # Generated benchmark report (Markdown)
 ├── retrieval_benchmark.json         # Generated benchmark report (JSON)
+├── .gitignore
+├── README.md                        # Project ovrview and setup instructions
 │
 ├── data/
 │   ├── __init__.py
