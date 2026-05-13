@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-05-13T06:26:20.319466+00:00",
+  "corpus_size": 10,
+  "top_k": 3,
+  "queries_evaluated": 3,
+  "summary": {
+    "strategy_b_outperforms_a_count": 1,
+    "total_queries": 3,
+    "avg_score_delta_b_minus_a": -0.0176,
+    "avg_jaccard_overlap": 0.5667,
+    "winner": "Strategy A (Raw)"
+  },
+  "results": [
+    {
+      "query": "How does the system handle peak load?",
+      "hyde_expansion_preview": "During peak market hours such as market open, market close, and major economic data releases, high-frequency trading systems experience extreme throughput demands exceeding 500,000 messages per second…",
+      "metrics": {
+        "strategy_a_mean_score": 0.444,
+        "strategy_b_mean_score": 0.3749,
+        "score_delta_b_minus_a": -0.0691,
+        "jaccard_overlap": 1.0,
+        "rbo_approx": 0.271
+      },
+      "strategy_a_results": [
+        {
+          "rank": 1,
+          "doc_id": "doc_001",
+          "title": "High-Frequency Trading Systems and Peak Load Management",
+          "score": 0.9849,
+          "content_preview": "High-frequency trading (HFT) systems are purpose-built to sustain extreme throughput during peak market events such as m…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "doc_005",
+          "title": "Stress Testing and Scenario Analysis in Financial Institutions",
+          "score": 0.1926,
+          "content_preview": "Regulatory stress testing (DFAST, EBA stress tests) requires financial institutions to model their balance sheets under …"
+        },
+        {
+          "rank": 3,
+          "doc_id": "doc_004",
+          "title": "Market Microstructure: Liquidity, Order Books, and Price Discovery",
+          "score": 0.1546,
+          "content_preview": "Price discovery in modern equity markets occurs through a continuous double auction mechanism where a central limit orde…"
+        }
+      ],
+      "strategy_b_results": [
+        {
+          "rank": 1,
+          "doc_id": "doc_001",
+          "title": "High-Frequency Trading Systems and Peak Load Management",
+          "score": 0.9994,
+          "content_preview": "High-frequency trading (HFT) systems are purpose-built to sustain extreme throughput during peak market events such as m…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "doc_005",
+          "title": "Stress Testing and Scenario Analysis in Financial Institutions",
+          "score": 0.0762,
+          "content_preview": "Regulatory stress testing (DFAST, EBA stress tests) requires financial institutions to model their balance sheets under …"
+        },
+        {
+          "rank": 3,
+          "doc_id": "doc_004",
+          "title": "Market Microstructure: Liquidity, Order Books, and Price Discovery",
+          "score": 0.0492,
+          "content_preview": "Price discovery in modern equity markets occurs through a continuous double auction mechanism where a central limit orde…"
+        }
+      ]
+    },
+    {
+      "query": "What are the risk management strategies for volatile markets?",
+      "hyde_expansion_preview": "Portfolio risk management employs Value-at-Risk (VaR), Conditional VaR (Expected Shortfall), and Monte Carlo simulation to measure and limit exposure. Real-time risk limits are enforced at firm-wide, …",
+      "metrics": {
+        "strategy_a_mean_score": 0.4765,
+        "strategy_b_mean_score": 0.5153,
+        "score_delta_b_minus_a": 0.0388,
+        "jaccard_overlap": 0.2,
+        "rbo_approx": 0.027
+      },
+      "strategy_a_results": [
+        {
+          "rank": 1,
+          "doc_id": "doc_006",
+          "title": "Algorithmic Execution: TWAP, VWAP, and Smart Order Routing",
+          "score": 0.5344,
+          "content_preview": "Algorithmic execution strategies minimise market impact by intelligently slicing large parent orders into smaller child …"
+        },
+        {
+          "rank": 2,
+          "doc_id": "doc_003",
+          "title": "Options Pricing: Black-Scholes and Volatility Surface Calibration",
+          "score": 0.4882,
+          "content_preview": "The Black-Scholes-Merton (BSM) framework prices European options under assumptions of log-normal asset returns, constant…"
+        },
+        {
+          "rank": 3,
+          "doc_id": "doc_008",
+          "title": "Credit Risk Modelling: PD, LGD, EAD, and IRB Approaches",
+          "score": 0.407,
+          "content_preview": "Credit risk quantification under the Internal Ratings-Based (IRB) approach requires estimating three components: Probabi…"
+        }
+      ],
+      "strategy_b_results": [
+        {
+          "rank": 1,
+          "doc_id": "doc_002",
+          "title": "Portfolio Risk Management and Value-at-Risk Models",
+          "score": 0.9735,
+          "content_preview": "Modern portfolio risk frameworks combine parametric Value-at-Risk (VaR) with Monte Carlo simulation to capture fat-taile…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "doc_005",
+          "title": "Stress Testing and Scenario Analysis in Financial Institutions",
+          "score": 0.4148,
+          "content_preview": "Regulatory stress testing (DFAST, EBA stress tests) requires financial institutions to model their balance sheets under …"
+        },
+        {
+          "rank": 3,
+          "doc_id": "doc_008",
+          "title": "Credit Risk Modelling: PD, LGD, EAD, and IRB Approaches",
+          "score": 0.1576,
+          "content_preview": "Credit risk quantification under the Internal Ratings-Based (IRB) approach requires estimating three components: Probabi…"
+        }
+      ]
+    },
+    {
+      "query": "How is real-time price discovery achieved in modern exchanges?",
+      "hyde_expansion_preview": "Price discovery in equity markets operates through continuous double auctions in a central limit order book (CLOB). Market microstructure decomposes the bid-ask spread into adverse selection, inventor…",
+      "metrics": {
+        "strategy_a_mean_score": 0.5426,
+        "strategy_b_mean_score": 0.5201,
+        "score_delta_b_minus_a": -0.0225,
+        "jaccard_overlap": 0.5,
+        "rbo_approx": 0.244
+      },
+      "strategy_a_results": [
+        {
+          "rank": 1,
+          "doc_id": "doc_004",
+          "title": "Market Microstructure: Liquidity, Order Books, and Price Discovery",
+          "score": 0.874,
+          "content_preview": "Price discovery in modern equity markets occurs through a continuous double auction mechanism where a central limit orde…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "doc_006",
+          "title": "Algorithmic Execution: TWAP, VWAP, and Smart Order Routing",
+          "score": 0.4338,
+          "content_preview": "Algorithmic execution strategies minimise market impact by intelligently slicing large parent orders into smaller child …"
+        },
+        {
+          "rank": 3,
+          "doc_id": "doc_007",
+          "title": "Real-Time Settlement Systems and Post-Trade Infrastructure",
+          "score": 0.3199,
+          "content_preview": "Post-trade infrastructure processes trade confirmations, clearing, and settlement through a chain of Central Counterpart…"
+        }
+      ],
+      "strategy_b_results": [
+        {
+          "rank": 1,
+          "doc_id": "doc_004",
+          "title": "Market Microstructure: Liquidity, Order Books, and Price Discovery",
+          "score": 0.9747,
+          "content_preview": "Price discovery in modern equity markets occurs through a continuous double auction mechanism where a central limit orde…"
+        },
+        {
+          "rank": 2,
+          "doc_id": "doc_006",
+          "title": "Algorithmic Execution: TWAP, VWAP, and Smart Order Routing",
+          "score": 0.4083,
+          "content_preview": "Algorithmic execution strategies minimise market impact by intelligently slicing large parent orders into smaller child …"
+        },
+        {
+          "rank": 3,
+          "doc_id": "doc_005",
+          "title": "Stress Testing and Scenario Analysis in Financial Institutions",
+          "score": 0.1773,
+          "content_preview": "Regulatory stress testing (DFAST, EBA stress tests) requires financial institutions to model their balance sheets under …"
+        }
+      ]
+    }
+  ]
+}
