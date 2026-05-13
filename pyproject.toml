@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "finrag"
+version = "1.0.0"
+description = "Finance-domain RAG pipeline with HyDE query expansion — Senior Gen AI Assessment"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "sentence-transformers>=2.6.0",
+    "faiss-cpu>=1.8.0",
+    "numpy>=1.26.0",
+    "torch>=2.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["finrag*", "data*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
